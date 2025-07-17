@@ -5,46 +5,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mini Project RevoU</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined">
-    <link rel="stylesheet" href="/index.css">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
-<body>
-    <section>
-        <div class="border-solid mt-5 ml-5 mr-5 border border-black">
-            <p class="pt-1 pl-2 pb-1">Hi User, Welcome to Website</p>
-            <p class="pl-2 pb-1">Ini adalah website latihan pertama</p>
-            <br>
-            <img src="/hero.jpg" alt="Hero Image" class="w-1366 h-100 pt-1 pl-2 pb-2 pr-2">
+<body class="border-1">
+    <header class="flex justify-between items-center p-[16px] bg-slate-900 border-b">
+        <div class="flex items-center">
+            <div class="h-13 w-13 bg-[url(/logo.png)] rounded-full bg-center bg-cover border border-white border-2"></div>
+            <span class="text-white text-lg font-semibold ml-4 tracking-wider">Talitha Alisya Candraningtyas</span>
         </div>
-    </section>
-    <section>
-        <div class="border-solid ml-5 mr-5 border border-black">
+        <nav class="flex">
+            <a class="py-2 px-4 mx-1 text-white tracking-widest font-semibold hover:text-slate-900 hover:rounded-full hover:bg-white hover:scale-105 transition-transform duration-300" href="#home">Home</a>
+            <a class="py-2 px-4 mx-1 text-white tracking-widest font-semibold hover:text-slate-900 hover:rounded-full hover:bg-white hover:scale-105 transition-transform duration-300" href="#profile">Our Profile</a>
+            <a class="py-2 px-4 mx-1 text-white tracking-widest font-semibold hover:text-slate-900 hover:rounded-full hover:bg-white hover:scale-105 transition-transform duration-300" href="#portofolio">Portofolio</a>
+            <a class="py-2 px-4 mx-1 text-white tracking-widest font-semibold hover:text-slate-900 hover:rounded-full hover:bg-white hover:scale-105 transition-transform duration-300" href="#message">Message</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
             <div>
-                <p class="pt-1 pl-2 pb-1">Our Headquarter</P>
+                <h1>
+
+                </h1>
             </div>
-            <div>
-                <img src="/001.png" alt="" width="100px">
-                <p class="text-center">Foto Keluarga</p>
+        </section>
+        <section>
+            <div class="border-solid mt-5 ml-5 mr-5 mb-5 border border-black">
+                <form action="" class="pl-2 pb-2 pr-2">
+                    <label>Nama :</label>
+                    <input type="text" placeholder="Nama">
+                    <br>
+                    <label>Tanggal Lahir :</label>
+                    <input type="date" placeholder="dd/mm/yyyy">
+                    <br>
+                    <label>Jenis Kelamin :</label>
+                    <input type="radio" value="male" name="gender">Laki-laki
+                    <input type="radio" value="female" name="gender">Perempuan
+                    <br>
+                    <label>Pesan :</label>
+                    <textarea cols="30" rows="5" placeholder="Tuliskan Pesan Anda"></textarea>
+                </form>
             </div>
-        </div>
-    </section>
-    <section>
-        <div class="border-solid ml-5 mr-5 mb-5 border border-black">
-            <form action="" class="pl-2 pb-2 pr-2">
-                <label>Nama :</label>
-                <input type="text" placeholder="Nama">
-                <br>
-                <label>Tanggal Lahir :</label>
-                <input type="date" placeholder="dd/mm/yyyy">
-                <br>
-                <label>Jenis Kelamin :</label>
-                <input type="radio" value="male" name="gender">Laki-laki
-                <input type="radio" value="female" name="gender">Perempuan
-                <br>
-                <label>Pesan :</label>
-                <textarea cols="30" rows="5" placeholder="Tuliskan Pesan Anda"></textarea>
-            </form>
-        </div>
-    </section>
+        </section>
+    </main>
+
+    <footer>
+
+    </footer>
 </body>
 </html>
