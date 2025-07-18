@@ -10,7 +10,7 @@
 <body class="border-1">
     <header class="flex justify-between items-center p-[16px] bg-slate-900 border-b">
         <div class="flex items-center">
-            <div class="h-13 w-13 bg-[url(/logo.png)] rounded-full bg-center bg-cover border border-white border-2"></div>
+            <div class="h-13 w-13 bg-[url(/assets/logo.png)] rounded-full bg-center bg-cover border border-white border-2"></div>
             <span class="text-white text-lg font-semibold ml-4 tracking-wider">Talitha Alisya Candraningtyas</span>
         </div>
         <nav class="flex">
@@ -22,7 +22,41 @@
     </header>
 
     <main>
-        <section id="home">
+        <section id="home" class="border border-slate-900">
+
+            <header class="mt-15 flex justify-center">
+                <h1 class="py-4 px-6 text-center text-3xl font-bold text-white tracking-wider bg-slate-900">Hai [User], Welcome to Our Website!</h1>
+            </header>
+
+            <div>
+                <p class="mt-5 mb-15 flex justify-center text-2xl font-medium italic text-slate-900">Here you can find some information about our company</p>
+                <div class="h-130 w-auto mx-15 flex justify-center bg-center bg-cover border border-slate-900">
+                    <img src="/assets/hero.jpg" alt="Hero Image" class="w-full h-full object-cover p-2">
+                </div>
+            </div>
+
+            <article>
+                <p class="mt-7 mb-12 mx-18 justify-center text-justify text-3xl font-semibold text-slate-900 tracking-wider">
+                    L<span class="text-lg font-normal"><span class="font-medium">oonarTech Solutions </span>was founded in 2018 with a singular vision: to simplify complex challenges through intelligent, bespoke technology. Beginning as a small team of passionate innovators in Silicon Valley, we quickly became known for our ability to deliver cutting-edge, AI-powered software solutions tailored precisely to client needs. Our commitment to rapid prototyping and strong client partnerships has fueled our growth, making LoonarTech Solutions a trusted name in custom software development today.</span>
+                </p>
+            </article>
+
+        </section>
+
+        <section id="profile" class="border border-slate-900">
+            <header class="mt-10 flex justify-between items-center py-15 px-3 border-b">
+                <div class="flex flex-col items-center md:items-start md:w-1/3 lg:w-1/4">
+                    <div class="h-100 w-100 mx-15 flex justify-center rounded-full bg-center bg-cover border border-slate-900">
+                        <img src="/assets/hero.jpg" alt="Hero Image" class="w-full h-full object-cover p-2 rounded-full">
+                    </div>
+                    <h2 class="text-white">Talitha</h2>
+                    <p> Owner</p>
+                </div>
+            </header>
+
+        </section>
+
+        <!-- <section id="home">
             <div>
                 <h1>
 
@@ -46,7 +80,7 @@
                     <textarea cols="30" rows="5" placeholder="Tuliskan Pesan Anda"></textarea>
                 </form>
             </div>
-        </section>
+        </section> -->
     </main>
 
     <footer>
